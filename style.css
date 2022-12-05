@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    height: 90vh;
+    padding: 20px;
+    background-color: rgb(77, 139, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.box {
+    padding: 15px;
+    width: 380px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(213, 222, 230);
+    box-shadow: 0px 0px 43px 7px rgb(26, 26, 26);
+}
+
+input {
+    max-width: 400px;
+    padding: 24px;
+    font-size: 26px;
+    opacity: 0.5;
+    border-style: none;
+    text-align: right;
+    color: rgb(23, 60, 95);
+    background-color: rgb(165, 209, 235);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(165, 209, 235);
+    color: rgb(76, 154, 206);
+    border-style: none;
+    width: 63px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#num {
+    padding: 10px;
+    margin: 5px;
+    color: rgb(25, 15, 82);
+    background-color: rgb(203, 229, 254);
+    border-style: none;
+    width: 63px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+#num:hover {
+    background-color: aliceblue;
+}
+
+#equal {
+    background-color: rgb(77, 139, 200);
+    width: 140px;
+    color: white;
+}
+
+#equal:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.rf {
+    height: 63px;
+}
